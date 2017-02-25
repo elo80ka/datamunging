@@ -2,7 +2,7 @@
 lazy val commonSettings = Seq(
   organization := "com.meetup.lagosscala",
   version := "0.0.1",
-  scalaVersion := "2.12.1"
+  scalaVersion := "2.11.8"
 )
 
 lazy val root = (project in file(".")).
